@@ -12,9 +12,6 @@ public class SortZerosTest {
         SortZeros sort = new SortZeros();
         arr = sort.sortZeros(arr);
         int[] expected = { 0, 0, 0, 3, 4, 2, 1 ,5 ,7 ,1};
-        for(int i: arr) {
-            System.out.print(" "+i);
-        }
         assertArrayEquals(expected, arr);
     }
 
@@ -24,9 +21,6 @@ public class SortZerosTest {
         SortZeros sort = new SortZeros();
         arr = sort.sortZeros(arr);
         int[] expected = { 0, 0, 0, 0, 0};
-        for(int i: arr) {
-            System.out.print(" "+i);
-        }
         assertArrayEquals(expected, arr);
     }
 }
